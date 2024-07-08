@@ -545,6 +545,9 @@ progress {
   margin-right: auto;
   margin-left: auto;
 }
+.container-fluid {
+  position: relative;
+}
 @media (min-width: 576px) {
   .container,
   .container-sm {
