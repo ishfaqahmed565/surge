@@ -545,6 +545,10 @@ progress {
   margin-right: auto;
   margin-left: auto;
 }
+.service-detail {
+  text-align: left;
+  margin-bottom: 4rem;
+}
 .container-fluid {
   position: relative;
 }

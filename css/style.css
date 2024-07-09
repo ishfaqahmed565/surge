@@ -56,7 +56,7 @@ h6,
 .btn {
   transition: 0.5s;
   font-weight: 500;
-  background-color: red;
+  background-color: #ee4b2b;
 }
 
 .btn-primary,
@@ -234,7 +234,75 @@ h6,
       rgba(2, 36, 91, 1) 0%,
       rgba(2, 36, 91, 0) 100%
     ),
-    url(../img/carousel-2.jpg) center center no-repeat;
+    url(../img/2.png) center center no-repeat;
+  background-size: cover;
+}
+
+.page-header-about {
+  background: linear-gradient(
+      to right,
+      rgba(2, 36, 91, 1) 0%,
+      rgba(2, 36, 91, 0) 100%
+    ),
+    url(../img/feature1.png) center center no-repeat;
+  background-size: cover;
+}
+.about-img {
+  width: 50% !important;
+  height: auto;
+}
+.page-header-service1 {
+  background: linear-gradient(
+      to right,
+      rgba(2, 36, 91, 1) 0%,
+      rgba(2, 36, 91, 0) 100%
+    ),
+    url(../img/service1.jpg) center center no-repeat;
+  background-size: cover;
+}
+.page-header-service2 {
+  background: linear-gradient(
+      to right,
+      rgba(2, 36, 91, 1) 0%,
+      rgba(2, 36, 91, 0) 100%
+    ),
+    url(../img/service2.jpg) center center no-repeat;
+  background-size: cover;
+}
+.page-header-service3 {
+  background: linear-gradient(
+      to right,
+      rgba(2, 36, 91, 1) 0%,
+      rgba(2, 36, 91, 0) 100%
+    ),
+    url(../img/service3.jpg) center center no-repeat;
+  background-size: cover;
+}
+.page-header-service4 {
+  background: linear-gradient(
+      to right,
+      rgba(2, 36, 91, 1) 0%,
+      rgba(2, 36, 91, 0) 100%
+    ),
+    url(../img/service4.jpg) center center no-repeat;
+  background-size: cover;
+}
+.page-header-service5 {
+  background: linear-gradient(
+      to right,
+      rgba(2, 36, 91, 1) 0%,
+      rgba(2, 36, 91, 0) 100%
+    ),
+    url(../img/service5.jpg) center center no-repeat;
+  background-size: cover;
+}
+.page-header-service6 {
+  background: linear-gradient(
+      to right,
+      rgba(2, 36, 91, 1) 0%,
+      rgba(2, 36, 91, 0) 100%
+    ),
+    url(../img/service6.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -554,7 +622,11 @@ h6,
   font-size: 22px;
   transition: 0.5s;
 }
-
+/* Blogs */
+.italics {
+  font-style: italic;
+  color: #02245b;
+}
 /*** Team ***/
 .team-item .team-social {
   position: absolute;
