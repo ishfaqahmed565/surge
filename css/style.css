@@ -117,7 +117,7 @@ h6,
   height: 75px;
   display: flex;
   align-items: center;
-  background: var(--secondary);
+  
 }
 
 .navbar .navbar-brand::after {

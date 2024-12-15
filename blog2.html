@@ -1,513 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Surge Engineering – An Engineering Consultancy Firm</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="" name="keywords" />
-    <meta content="" name="description" />
+	<head>
+		<meta charset="utf-8" />
+		<title>Surge Engineering – An Engineering Consultancy Firm</title>
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<meta content="" name="keywords" />
+		<meta content="" name="description" />
 
-    <!-- Favicon -->
-    <link href="img/logo2.png" rel="icon" />
+		<!-- Favicon -->
+		<link href="img/logo2.png" rel="icon" type="image/png" />
+		<!-- Google Web Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Rubik:wght@500;600;700&display=swap"
+			rel="stylesheet"
+		/>
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Rubik:wght@500;600;700&display=swap"
-      rel="stylesheet"
-    />
+		<!-- Icon Font Stylesheet -->
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+			rel="stylesheet"
+		/>
 
-    <!-- Icon Font Stylesheet -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+		<!-- Libraries Stylesheet -->
+		<link href="lib/animate/animate.min.css" rel="stylesheet" />
+		<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet" />
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+		<!-- Customized Bootstrap Stylesheet -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+		<!-- Template Stylesheet -->
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
 
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
-  </head>
+	<body>
+		<!-- Spinner Start -->
+		<div
+			id="spinner"
+			class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+		>
+			<div
+				class="spinner-border text-primary"
+				role="status"
+				style="width: 3rem; height: 3rem"
+			></div>
+		</div>
+		<!-- Spinner End -->
 
-  <body>
-    <!-- Spinner Start -->
-    <div
-      id="spinner"
-      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
-    >
-      <div
-        class="spinner-border text-primary"
-        role="status"
-        style="width: 3rem; height: 3rem"
-      ></div>
-    </div>
-    <!-- Spinner End -->
+		<!-- Navbar Start -->
+		<nav
+			class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5"
+		>
+			<a href="index.html" class="navbar-brand ps-5 me-0">
+				<img src="img/favicon.png" alt="" />
+			</a>
+			<button
+				type="button"
+				class="navbar-toggler me-0"
+				data-bs-toggle="collapse"
+				data-bs-target="#navbarCollapse"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<div class="navbar-nav ms-auto p-4 p-lg-0">
+					<a href="index.html" class="nav-item nav-link">Home</a>
+					<div class="nav-item dropdown">
+						<a
+							href="#"
+							class="nav-link dropdown-toggle"
+							data-bs-toggle="dropdown"
+							>About Us</a
+						>
+						<div class="dropdown-menu bg-light m-0">
+							<a href="about.html" class="dropdown-item">About Us</a>
+							<!-- <a href="feature.html" class="dropdown-item">Features</a> -->
+							<a href="team.html" class="dropdown-item">Our Team</a>
+							<!-- <a href="testimonial.html" class="dropdown-item">Testimonial</a> -->
+							<!-- <a href="404.html" class="dropdown-item">404 Page</a> -->
+						</div>
+					</div>
+					<!-- <a href="about.html" class="nav-item nav-link">About</a> -->
+					<a href="service.html" class="nav-item nav-link">Services</a>
+					<a href="project.html" class="nav-item nav-link">Projects</a>
+					<a href="blog.html" class="nav-item nav-link active">Blog</a>
+				</div>
+				<a href="contact.html" class="btn btn-primary px-3 d-none d-lg-block"
+					>Contact</a
+				>
+			</div>
+		</nav>
+		<!-- Navbar End -->
 
-    <!-- Navbar Start -->
-    <nav
-      class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5"
-    >
-      <a href="index.html" class="navbar-brand ps-5 me-0">
-        <img src="img/favicon.png" alt="" />
-      </a>
-      <button
-        type="button"
-        class="navbar-toggler me-0"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarCollapse"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav ms-auto p-4 p-lg-0">
-          <a href="index.html" class="nav-item nav-link active">Home</a>
-          <a href="about.html" class="nav-item nav-link">About</a>
-          <a href="service.html" class="nav-item nav-link">Services</a>
-          <a href="service.html" class="nav-item nav-link">Projects</a>
-          <a href="service.html" class="nav-item nav-link">Blog</a>
+		<!-- Page Header Start -->
+		<div
+			class="container-fluid page-header py-5 mb-5 wow fadeIn"
+			data-wow-delay="0.1s"
+		>
+			<div class="container py-5">
+				<h1 class="display-3 text-white animated slideInRight">Blogs</h1>
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb animated slideInRight mb-0">
+						<li class="breadcrumb-item"><a href="#">Home</a></li>
 
-          <a href="contact.html" class="nav-item nav-link">Contact</a>
-        </div>
-        <a href="" class="btn btn-primary px-3 d-none d-lg-block"
-          >Get A Quote</a
-        >
-      </div>
-    </nav>
-    <!-- Navbar End -->
+						<li class="breadcrumb-item active" aria-current="page">Blog</li>
+					</ol>
+				</nav>
+			</div>
+		</div>
+		<!-- Page Header End -->
 
-    <!-- Page Header Start -->
-    <div
-      class="container-fluid page-header py-5 mb-5 wow fadeIn"
-      data-wow-delay="0.1s"
-    >
-      <div class="container py-5">
-        <h1 class="display-3 text-white animated slideInRight">Blogs</h1>
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb animated slideInRight mb-0">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
+		<!-- Blog Start -->
+		<div class="container-xxl py-5">
+			<img src="img/blog2.jpg" alt="" />
+			<div class="service-detail pt-5">
+				<h6>January 9, 2016</h6>
+				<h2 class="display-5 mb-4">
+					Biogas: can be a good source of energy in Bangladesh
+				</h2>
+				<p>
+					It has been a long time since a discussion about the scarcity of
+					energy cum fuel is going on in Bangladesh. As there is no
+					uninterrupted energy supply, the public life as well as the economic
+					progress is under obstruction. The necessity of renewable energy is a
+					burning question since many years, as the conventional sources
+					(natural gas, oil etc) are insufficient in our country. Though
+					renewable energy has much possibility, in our country, the usage of it
+					is not enough. The solar powered electricity has been used mostly in
+					Bangladesh as a renewable energy. But other renewable energy sources
+					are not much common. One of those renewable energy sources is the
+					Biogas plant. In spite of much possibility, the lack of taking proper
+					steps is ruining its prospect. In villages, some family formatted
+					Biogas plants are seen at a small range, but not any large ones. With
+					proper plans and steps, Biogas plant can become the best source of
+					energy.
+				</p>
+				<h5>What is Biogas?</h5>
+				<p>
+					Biogas is formed through the degradation of organic materials. The
+					process of degradation has to develop in the Anaerobic environment-
+					which means the absence of Oxygen. Garbage, stools or crops (which
+					have high organic elements) are generally used to generate Biogas.
+					These materials are called Substrate. Organic materials are mainly a
+					mixture of various proportions of Carbon and Hydrogen (and other
+					elements too). In the absence of Oxygen, some bacteria grow which can
+					break these organic substances. The breakage of these organic
+					substances creates Methane (CH4), Carbon di oxide (CO2), Nitrogen(N2),
+					Hydrogen sulfide (H2S). The fuel value of any gas depends on the
+					proportion of Methane in it. Biogas can have 50-75% Methane depending
+					on the nature of the Substrate. With the amount of Methane in Biogas,
+					it can be used as an alternative of natural gas in cooking or in any
+					other oven. But it cannot be used to produce electricity directly. By
+					removing or filtering Hydrogen sulfide, the refined Biogas can be used
+					to produce electricity.
+				</p>
+				<h5>How does Biogas plant work?</h5>
+				<p>
+					The main parts of Biogas plant are Digester, Inlet chamber (the
+					chamber in which the substrates are delivered) and Gas collector.
+					Along with these, few other parts are also there mainly for safety,
+					measurement and operation. Digester is the main part where the process
+					of digestion takes place. Substrates are delivered to the digester
+					through the inlet chamber. The digester remains completely air tight
+					which assures the absence of Oxygen in it. After 5 to 7 days, gas
+					starts to produce. In this time necessary microorganism or bacteria
+					starts to develop. The amount of Biogas depends on the composition of
+					substrate.
+				</p>
+				<h5>Usefulness of Biogas plant</h5>
+				<p>
+					Biogas has some extra benefits than any other sources of energy. Other
+					renewable fuels work only as a source of energy; in addition to that,
+					Biogas plant does the following works: <br />
+					-collects nutrients from garbage which are reusable. <br />
+					–produces organic fertilizers which can be used in farming. <br />
+					–takes a role in reducing garbage from the environment. <br />
+				</p>
+				<p>
+					So, we have to consider the overall benefits of biogas, not only as a
+					source of energy. For example, to remove the municipal garbage, the
+					city corporations spend a lot of money, but this work is limited in
+					collecting and removing the garbage outside of the city. Because of
+					the wrong process of collecting garbage it has no usefulness at
+					present. But, by taking few steps, these trashes can be used to
+					produce Biogas and organic fertilizer. So that, the diseases and reek,
+					which are spreading from the scattered garbage now, can be restrained.
+					The Methane from the trashes (which is the most injurious green house
+					gas) can also be used properly. That means, the garbage, which has no
+					use at present, can be used appropriately through this technology of
+					Biogas plant. Biogas plant can be used not only to remove urban waste,
+					but also to refine waste water. In many counties, this kind of model
+					is already successfully going on. The garbage, which has organic
+					materials in high amount, can be used as substrate in Biogas plant.
+					Such as, domestic waste, waste water, agricultural waste, excrement
+					etc. besides some crops can also be used in biogas plant.
+				</p>
+				<h5>Possibilities of Biogas plant: focusing Bangladesh</h5>
+				<p>
+					Though Biogas plant has much possibility in Bangladesh, its usage is
+					still very limited. There are very few Biogas plants developed under
+					single or combined effort in villages at a small range, which are
+					still the maximum ones. Very few poultry farm and agricultural farms
+					have Biogas plants. During summer, the temperature of Bangladesh
+					remains under 30-40digree siliceous, which is very adequate to produce
+					Biogas. That is why Biogas plant in Bangladesh is a demand of time.
+					<br />
+					1. To refine urban wastage: The rate of urbanization in Bangladesh is
+					33.5% [1] which means day to day the urban wastage is increasing.
+					There is no proper policy or steps to remove and to refine this
+					garbage. So the city authority’s duty is just limited in collecting
+					the trash and throwing it to some junkyard. These reserved trashes are
+					producing reek, disease as well as Methane gas (green house gas).
+					However, by using Biogas plant technology, the garbage can be refined
+					to improve the environment and also the produced Biogas and fertilizer
+					can be used for trading. This means garbage can be a source of money
+					and this model is proven in other countries. Everyday 2 crores 25 lac
+					ton [2] garbage is produced in Bangladesh. Almost 70%waste is organic
+					waste [3] in it, which means almost 1 crore 60 lack ton organic waste
+					are produced. In a research it is seen that, an area, where 1 lac
+					people lives, produces 20 metric ton wastage which are perfect to make
+					Biogas. By using this wastage, 1400 cubic meter gas can be produced
+					which can be used in 1200 house for cooking everyday [6]. So, the
+					scarcity of domestic fuel can be reduced by using this large amount of
+					waste appropriately.
+					<br />
+					2. To solve the problem of fuel scarcity in villages: In the cities of
+					Bangladesh, the gas line is connected through pipe lines. Also the
+					supply of gas cylinder is limited inside cities. In the rural areas,
+					woods, stray and cow dung are commonly used as fuel (almost 94%) , so
+					the forests are getting barren. Various organic materials are much
+					available in villages than cities, so the Biogas plant can be a way to
+					solve the problem of fuel scarcity in villages. Thus the environment
+					will be improved.
+					<br />
+					3. To remove the trashes from dairy and poultry farm: There are a lot
+					of poultry farm in Bangladesh which produce useful trashes for Biogas
+					plant. Very few poultry farm have Biogas plant and these are
+					successfully driven. Dairy farm can also use Biogas plant effectively.
+					Each ton of poultry litters can produce 30 to 100 cubic meter of
+					Biogas [5]. Each ton of cow dung can produce 15 to 25 cubic meter of
+					Biogas [5]. In a survey, it is seen that 30 kg cow dung or 200 poultry
+					litters can make a oven burn for almost 3 hours [6]. After the
+					production of Biogas, the remaining garbage can be used as fertilizer.
+					If all poultry and dairy farm start Biogas plants, it will be possible
+					to produce Biogas and fertilizer at the same time which is very
+					beneficial.
+					<br />
+					4. To produce electricity: It is easy to produce electricity by using
+					the refined gas produces from the Biogas plant. As Bangladesh has a
+					lot of organic materials, so there is a huge possibility to produce
+					electricity through Biogas. Specially for the maximum use of organic
+					materials, Combined Heat and Power-CHP. While the heat efficiency of
+					coal and gas depended electricity is respectively 34% and 55%, it can
+					earn up to 70% of heat efficiency by producing combined heat and power
+					through Biogas [7]. Though some private sectors have taken few steps,
+					no such steps are taken by the government. One private institution
+					maintains two Biogas driven generators of 200 and 100 kilowatt.
+					Another institution produces 2400 cubic meter gas by using 30 ton of
+					poultry litter daily and that produces 200 kilo watt electricity [8].
+					Another one produces 1200 cubic meter gas with 15 ton poultry litters
+					which produces 100 kilo watt electricity [9].
+					<br />
+					5. To refine waste water: In Dhaka city, planned waste water refining
+					is limited to some certain areas. There is no plan to remove the waste
+					water throughout a large area. This waste water overflows from the
+					underground while raining. By using Waste Water Treatment Plant (WWTP)
+					effectively, the waste water can be refined; also it can be used to
+					produce energy.
+					<br />
+					6. To refine industrial waste: As the industrial waste has a little
+					organic material in it, it is not beneficial to use it in Biogas
+					plant. But to refine the injurious elements in industrial waste,
+					Biogas plant can be useful. Some bacteria grow in the anaerobic
+					environment which can take those injurious elements to a tolerable
+					level. The research about this is still going on.
+					<br />
+					Though it has much possibility, the lack of taking proper steps is
+					hindering the complete usage of Biogas in our country. In some private
+					sectors, specially for cooking, Biogas plants are used. But for
+					combined and large production of heat and power, no such steps have
+					been taken by the government yet. By using the possibility of Biogas,
+					to solve the problem of scarcity of fuel in Bangladesh, it is high
+					time for the government to take proper steps, make appropriate policy,
+					make roadmaps, do enough research and implement it.
+					<br />
+					Reference: <br />
+					(1) United Nations, Department of Economic and Social Affairs <br />
+					(2)Waste Atlas. (2012). Country Data: Bangladesh <br />
+					(3)http://wasteconcern.org/documents/Waste%20Data%20Base_2009.pdf
+					<br />
+					(4)Page 62, POPULATION AND HOUSING CENSUS 2011, SOCIO-ECONOMIC AND
+					DEMOGRAPHIC REPORT. <br />
+					(5) http://www.biogas-info.co.uk/biogas-yields.html <br />
+					(6) Prothom Alo, 28 November 2014, Page 1-2. <br />
+				</p>
+			</div>
+		</div>
+		<!-- Blogs End -->
 
-            <li class="breadcrumb-item active" aria-current="page">Blog</li>
-          </ol>
-        </nav>
-      </div>
-    </div>
-    <!-- Page Header End -->
-
-    <!-- Blog Start -->
-    <div class="container-xxl py-5">
-      <img src="img/blog2.jpg" alt="" />
-      <div class="service-detail">
-        <h6>January 9, 2016</h6>
-        <h2 class="display-5 mb-4">
-          Biogas: can be a good source of energy in Bangladesh
-        </h2>
-        <p>
-          It has been a long time since a discussion about the scarcity of
-          energy cum fuel is going on in Bangladesh. As there is no
-          uninterrupted energy supply, the public life as well as the economic
-          progress is under obstruction. The necessity of renewable energy is a
-          burning question since many years, as the conventional sources
-          (natural gas, oil etc) are insufficient in our country. Though
-          renewable energy has much possibility, in our country, the usage of it
-          is not enough. The solar powered electricity has been used mostly in
-          Bangladesh as a renewable energy. But other renewable energy sources
-          are not much common. One of those renewable energy sources is the
-          Biogas plant. In spite of much possibility, the lack of taking proper
-          steps is ruining its prospect. In villages, some family formatted
-          Biogas plants are seen at a small range, but not any large ones. With
-          proper plans and steps, Biogas plant can become the best source of
-          energy.
-        </p>
-        <h5>What is Biogas?</h5>
-        <p>
-          Biogas is formed through the degradation of organic materials. The
-          process of degradation has to develop in the Anaerobic environment-
-          which means the absence of Oxygen. Garbage, stools or crops (which
-          have high organic elements) are generally used to generate Biogas.
-          These materials are called Substrate. Organic materials are mainly a
-          mixture of various proportions of Carbon and Hydrogen (and other
-          elements too). In the absence of Oxygen, some bacteria grow which can
-          break these organic substances. The breakage of these organic
-          substances creates Methane (CH4), Carbon di oxide (CO2), Nitrogen(N2),
-          Hydrogen sulfide (H2S). The fuel value of any gas depends on the
-          proportion of Methane in it. Biogas can have 50-75% Methane depending
-          on the nature of the Substrate. With the amount of Methane in Biogas,
-          it can be used as an alternative of natural gas in cooking or in any
-          other oven. But it cannot be used to produce electricity directly. By
-          removing or filtering Hydrogen sulfide, the refined Biogas can be used
-          to produce electricity.
-        </p>
-        <h5>How does Biogas plant work?</h5>
-        <p>
-          The main parts of Biogas plant are Digester, Inlet chamber (the
-          chamber in which the substrates are delivered) and Gas collector.
-          Along with these, few other parts are also there mainly for safety,
-          measurement and operation. Digester is the main part where the process
-          of digestion takes place. Substrates are delivered to the digester
-          through the inlet chamber. The digester remains completely air tight
-          which assures the absence of Oxygen in it. After 5 to 7 days, gas
-          starts to produce. In this time necessary microorganism or bacteria
-          starts to develop. The amount of Biogas depends on the composition of
-          substrate.
-        </p>
-        <h5>Usefulness of Biogas plant</h5>
-        <p>
-          Biogas has some extra benefits than any other sources of energy. Other
-          renewable fuels work only as a source of energy; in addition to that,
-          Biogas plant does the following works: <br />
-          -collects nutrients from garbage which are reusable. <br />
-          –produces organic fertilizers which can be used in farming. <br />
-          –takes a role in reducing garbage from the environment. <br />
-        </p>
-        <p>
-          So, we have to consider the overall benefits of biogas, not only as a
-          source of energy. For example, to remove the municipal garbage, the
-          city corporations spend a lot of money, but this work is limited in
-          collecting and removing the garbage outside of the city. Because of
-          the wrong process of collecting garbage it has no usefulness at
-          present. But, by taking few steps, these trashes can be used to
-          produce Biogas and organic fertilizer. So that, the diseases and reek,
-          which are spreading from the scattered garbage now, can be restrained.
-          The Methane from the trashes (which is the most injurious green house
-          gas) can also be used properly. That means, the garbage, which has no
-          use at present, can be used appropriately through this technology of
-          Biogas plant. Biogas plant can be used not only to remove urban waste,
-          but also to refine waste water. In many counties, this kind of model
-          is already successfully going on. The garbage, which has organic
-          materials in high amount, can be used as substrate in Biogas plant.
-          Such as, domestic waste, waste water, agricultural waste, excrement
-          etc. besides some crops can also be used in biogas plant.
-        </p>
-        <h5>Possibilities of Biogas plant: focusing Bangladesh</h5>
-        <p>
-          Though Biogas plant has much possibility in Bangladesh, its usage is
-          still very limited. There are very few Biogas plants developed under
-          single or combined effort in villages at a small range, which are
-          still the maximum ones. Very few poultry farm and agricultural farms
-          have Biogas plants. During summer, the temperature of Bangladesh
-          remains under 30-40digree siliceous, which is very adequate to produce
-          Biogas. That is why Biogas plant in Bangladesh is a demand of time.
-          <br />
-          1. To refine urban wastage: The rate of urbanization in Bangladesh is
-          33.5% [1] which means day to day the urban wastage is increasing.
-          There is no proper policy or steps to remove and to refine this
-          garbage. So the city authority’s duty is just limited in collecting
-          the trash and throwing it to some junkyard. These reserved trashes are
-          producing reek, disease as well as Methane gas (green house gas).
-          However, by using Biogas plant technology, the garbage can be refined
-          to improve the environment and also the produced Biogas and fertilizer
-          can be used for trading. This means garbage can be a source of money
-          and this model is proven in other countries. Everyday 2 crores 25 lac
-          ton [2] garbage is produced in Bangladesh. Almost 70%waste is organic
-          waste [3] in it, which means almost 1 crore 60 lack ton organic waste
-          are produced. In a research it is seen that, an area, where 1 lac
-          people lives, produces 20 metric ton wastage which are perfect to make
-          Biogas. By using this wastage, 1400 cubic meter gas can be produced
-          which can be used in 1200 house for cooking everyday [6]. So, the
-          scarcity of domestic fuel can be reduced by using this large amount of
-          waste appropriately.
-          <br />
-          2. To solve the problem of fuel scarcity in villages: In the cities of
-          Bangladesh, the gas line is connected through pipe lines. Also the
-          supply of gas cylinder is limited inside cities. In the rural areas,
-          woods, stray and cow dung are commonly used as fuel (almost 94%) , so
-          the forests are getting barren. Various organic materials are much
-          available in villages than cities, so the Biogas plant can be a way to
-          solve the problem of fuel scarcity in villages. Thus the environment
-          will be improved.
-          <br />
-          3. To remove the trashes from dairy and poultry farm: There are a lot
-          of poultry farm in Bangladesh which produce useful trashes for Biogas
-          plant. Very few poultry farm have Biogas plant and these are
-          successfully driven. Dairy farm can also use Biogas plant effectively.
-          Each ton of poultry litters can produce 30 to 100 cubic meter of
-          Biogas [5]. Each ton of cow dung can produce 15 to 25 cubic meter of
-          Biogas [5]. In a survey, it is seen that 30 kg cow dung or 200 poultry
-          litters can make a oven burn for almost 3 hours [6]. After the
-          production of Biogas, the remaining garbage can be used as fertilizer.
-          If all poultry and dairy farm start Biogas plants, it will be possible
-          to produce Biogas and fertilizer at the same time which is very
-          beneficial.
-          <br />
-          4. To produce electricity: It is easy to produce electricity by using
-          the refined gas produces from the Biogas plant. As Bangladesh has a
-          lot of organic materials, so there is a huge possibility to produce
-          electricity through Biogas. Specially for the maximum use of organic
-          materials, Combined Heat and Power-CHP. While the heat efficiency of
-          coal and gas depended electricity is respectively 34% and 55%, it can
-          earn up to 70% of heat efficiency by producing combined heat and power
-          through Biogas [7]. Though some private sectors have taken few steps,
-          no such steps are taken by the government. One private institution
-          maintains two Biogas driven generators of 200 and 100 kilowatt.
-          Another institution produces 2400 cubic meter gas by using 30 ton of
-          poultry litter daily and that produces 200 kilo watt electricity [8].
-          Another one produces 1200 cubic meter gas with 15 ton poultry litters
-          which produces 100 kilo watt electricity [9].
-          <br />
-          5. To refine waste water: In Dhaka city, planned waste water refining
-          is limited to some certain areas. There is no plan to remove the waste
-          water throughout a large area. This waste water overflows from the
-          underground while raining. By using Waste Water Treatment Plant (WWTP)
-          effectively, the waste water can be refined; also it can be used to
-          produce energy.
-          <br />
-          6. To refine industrial waste: As the industrial waste has a little
-          organic material in it, it is not beneficial to use it in Biogas
-          plant. But to refine the injurious elements in industrial waste,
-          Biogas plant can be useful. Some bacteria grow in the anaerobic
-          environment which can take those injurious elements to a tolerable
-          level. The research about this is still going on.
-          <br />
-          Though it has much possibility, the lack of taking proper steps is
-          hindering the complete usage of Biogas in our country. In some private
-          sectors, specially for cooking, Biogas plants are used. But for
-          combined and large production of heat and power, no such steps have
-          been taken by the government yet. By using the possibility of Biogas,
-          to solve the problem of scarcity of fuel in Bangladesh, it is high
-          time for the government to take proper steps, make appropriate policy,
-          make roadmaps, do enough research and implement it.
-          <br />
-          Reference: <br />
-          (1) United Nations, Department of Economic and Social Affairs <br />
-          (2)Waste Atlas. (2012). Country Data: Bangladesh <br />
-          (3)http://wasteconcern.org/documents/Waste%20Data%20Base_2009.pdf
-          <br />
-          (4)Page 62, POPULATION AND HOUSING CENSUS 2011, SOCIO-ECONOMIC AND
-          DEMOGRAPHIC REPORT. <br />
-          (5) http://www.biogas-info.co.uk/biogas-yields.html <br />
-          (6) Prothom Alo, 28 November 2014, Page 1-2. <br />
-        </p>
-      </div>
-    </div>
-    <!-- Blogs End -->
-
-    <!-- Team Start -->
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div
-          class="text-center mx-auto wow fadeInUp"
-          data-wow-delay="0.1s"
-          style="max-width: 600px"
-        >
-          <p class="fw-medium text-uppercase text-primary mb-2">Our Team</p>
-          <h1 class="display-5 mb-5">Dedicated Team Members</h1>
-        </div>
-        <div class="row g-4">
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="team-item">
-              <img class="img-fluid" src="img/team1.jpg" alt="" />
-              <div class="d-flex">
-                <div
-                  class="flex-shrink-0 btn-square bg-primary"
-                  style="width: 90px; height: 90px"
-                >
-                  <i class="fa fa-2x fa-share text-white"></i>
-                </div>
-                <div
-                  class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
-                  style="height: 90px"
-                >
-                  <h5>Niloy Das</h5>
-                  <span class="text-primary">CEO </span>
-                  <div class="team-social">
-                    <a
-                      class="btn btn-square btn-dark rounded-circle mx-1"
-                      href=""
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a
-                      class="btn btn-square btn-dark rounded-circle mx-1"
-                      href=""
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a
-                      class="btn btn-square btn-dark rounded-circle mx-1"
-                      href=""
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="team-item">
-              <img class="img-fluid" src="img/team2.png" alt="" />
-              <div class="d-flex">
-                <div
-                  class="flex-shrink-0 btn-square bg-primary"
-                  style="width: 90px; height: 90px"
-                >
-                  <i class="fa fa-2x fa-share text-white"></i>
-                </div>
-                <div
-                  class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
-                  style="height: 90px"
-                >
-                  <h5>Nilutpal Das</h5>
-                  <span class="text-primary">Executive Director</span>
-                  <div class="team-social">
-                    <a
-                      class="btn btn-square btn-dark rounded-circle mx-1"
-                      href=""
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a
-                      class="btn btn-square btn-dark rounded-circle mx-1"
-                      href=""
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a
-                      class="btn btn-square btn-dark rounded-circle mx-1"
-                      href=""
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="team-item">
-              <img class="img-fluid" src="img/team3.png" alt="" />
-              <div class="d-flex">
-                <div
-                  class="flex-shrink-0 btn-square bg-primary"
-                  style="width: 90px; height: 90px"
-                >
-                  <i class="fa fa-2x fa-share text-white"></i>
-                </div>
-                <div
-                  class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
-                  style="height: 90px"
-                >
-                  <h5>Samsuddoza Alvi</h5>
-                  <span class="text-primary">Chief Operating Officer</span>
-                  <div class="team-social">
-                    <a
-                      class="btn btn-square btn-dark rounded-circle mx-1"
-                      href=""
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a
-                      class="btn btn-square btn-dark rounded-circle mx-1"
-                      href=""
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a
-                      class="btn btn-square btn-dark rounded-circle mx-1"
-                      href=""
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Team End -->
-
-    <!-- Footer Start -->
-    <div
-      class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn"
-      data-wow-delay="0.1s"
-    >
-      <div class="container py-5">
-        <div class="row g-5">
-          <div class="col-lg-3 col-md-6">
-            <h5 class="text-white mb-4">Our Office</h5>
-            <p class="mb-2">
-              <i class="fa fa-map-marker-alt me-3"></i> 70/F, Lake Circus,
-              Kalabagan, Dhaka-1205, Bangladesh
-            </p>
-            <p class="mb-2">
-              <i class="fa fa-phone-alt me-3"></i>+880-1711-152707 (WhatsApp)
-            </p>
-            <p class="mb-2">
-              <i class="fa fa-envelope me-3"></i> contact@surgeengineering.com
-            </p>
-            <div class="d-flex pt-3">
-              <!-- <a class="btn btn-square btn-primary rounded-circle me-2" href=""
+		<!-- Footer Start -->
+		<div
+			class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn"
+			data-wow-delay="0.1s"
+		>
+			<div class="container py-5">
+				<div class="row g-5">
+					<div class="col-lg-3 col-md-6">
+						<h5 class="text-white mb-4">Our Office</h5>
+						<p class="mb-2">
+							<i class="fa fa-map-marker-alt me-3"></i> 70/F, Lake Circus,
+							Kalabagan, Dhaka-1205, Bangladesh
+						</p>
+						<p class="mb-2">
+							<i class="fa fa-phone-alt me-3"></i>+880-1711-152707 (WhatsApp)
+						</p>
+						<p class="mb-2">
+							<i class="fa fa-envelope me-3"></i> contact@surgeengineering.com
+						</p>
+						<div class="d-flex pt-3">
+							<!-- <a class="btn btn-square btn-primary rounded-circle me-2" href=""
                 ><i class="fab fa-twitter"></i
               ></a> -->
-              <a class="btn btn-square btn-primary rounded-circle me-2" href=""
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <!-- <a class="btn btn-square btn-primary rounded-circle me-2" href=""
+							<a
+								class="btn btn-square btn-primary rounded-circle me-2"
+								href="https://www.facebook.com/surgeservice/"
+								><i class="fab fa-facebook-f"></i
+							></a>
+							<!-- <a class="btn btn-square btn-primary rounded-circle me-2" href=""
                 ><i class="fab fa-youtube"></i
               ></a> -->
-              <a class="btn btn-square btn-primary rounded-circle me-2" href=""
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h5 class="text-white mb-4">Quick Links</h5>
-            <a class="btn btn-link" href="">About Us</a>
-            <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Our Services</a>
-            <a class="btn btn-link" href="">Terms & Condition</a>
-            <a class="btn btn-link" href="">Support</a>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h5 class="text-white mb-4">Our Services</h5>
-            <a href="" class="btn btn-link">LEED Certification Consultancy</a>
-            <a href="" class="btn btn-link">Energy Audit</a>
-            <a href="" class="btn btn-link">Electrical Safety Audit</a>
-            <a href="" class="btn btn-link">Electrical Design</a>
-            <a href="" class="btn btn-link">Biogas Plant</a>
-            <a href="" class="btn btn-link">Research & Development</a>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h5 class="text-white mb-4">Get a Quote</h5>
-            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-            <div class="position-relative w-100">
-              <input
-                class="form-control bg-transparent w-100 py-3 ps-4 pe-5"
-                type="text"
-                placeholder="Your email"
-              />
-              <button
-                type="button"
-                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
-              >
-                SignUp
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Footer End -->
+							<a
+								class="btn btn-square btn-primary rounded-circle me-2"
+								href="https://www.linkedin.com/company/surge-engineering/"
+								><i class="fab fa-linkedin-in"></i
+							></a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<h5 class="text-white mb-4">Quick Links</h5>
+						<a class="btn btn-link" href="about.html">About Us</a>
+						<a class="btn btn-link" href="contact.html">Contact Us</a>
+						<a class="btn btn-link" href="service.html">Our Services</a>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<h5 class="text-white mb-4">Our Services</h5>
+						<a href="service1.html" class="btn btn-link"
+							>LEED Certification Consultancy</a
+						>
+						<a href="service2.html" class="btn btn-link">Energy Audit</a>
+						<a href="service3.html" class="btn btn-link"
+							>Electrical Safety Audit</a
+						>
+						<a href="service4.html" class="btn btn-link">Electrical Design</a>
+						<a href="service5.html" class="btn btn-link">Biogas Plant</a>
+						<a href="service6.html" class="btn btn-link"
+							>Research & Development</a
+						>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<h5 class="text-white mb-4">Contact Us</h5>
 
-    <a
-      href="#"
-      class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
-      ><i class="bi bi-arrow-up"></i
-    ></a>
+						<div class="position-relative w-100">
+							<a href="/contact.html">
+								<button
+									type="button"
+									class="btn btn-primary py-2 position-absolute top-0 mt-2 me-2"
+								>
+									Contact
+								</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer End -->
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
+		<a
+			href="#"
+			class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+			><i class="bi bi-arrow-up"></i
+		></a>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-  </body>
+		<!-- JavaScript Libraries -->
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="lib/wow/wow.min.js"></script>
+		<script src="lib/easing/easing.min.js"></script>
+		<script src="lib/waypoints/waypoints.min.js"></script>
+		<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+		<script src="lib/counterup/counterup.min.js"></script>
+
+		<!-- Template Javascript -->
+		<script src="js/main.js"></script>
+	</body>
 </html>
