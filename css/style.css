@@ -777,3 +777,53 @@ h6,
   color: #b0b9ae;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+.gap-y-5 {
+  margin-bottom: 3rem;
+}
+
+.gap-x-3 {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.grid-cols-2 {
+  display: grid;
+  gap: 0rem 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.download svg{
+  width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.5rem;
+    transition: all 200ms ease-out;
+}
+
+.download{
+  display: flex;
+    align-items: center;
+   gap: 0.5rem;
+  padding: 0.875rem;
+    transition: all 200ms ease-out;
+    border: 1px solid #eeeeee;
+    border-left: 3px solid #eeeeee;
+}
+.download span{
+  font-size: 1rem;   
+  transition: all 200ms ease-out;
+  display: inline-block;
+  color: #333333;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.download:hover {
+  border-left-color: #ee4b2b;
+  background-color: #f5f5f5;
+}
+
+@media (max-width: 576px) {
+  .grid-cols-1-sm {
+    grid-template-columns: 1fr;
+  }
+}
