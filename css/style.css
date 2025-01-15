@@ -6,6 +6,30 @@
   --dark: #02245b;
 }
 
+* {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.fa, .fas, .far, .fal, .fab {
+  font-family: 'Font Awesome 5 Free' !important;
+}
+
+.fas {
+  font-weight: 900 !important;
+}
+
+.far {
+  font-weight: 400 !important;
+}
+
+.fal {
+  font-weight: 300 !important;
+}
+
+.fab {
+  font-family: 'Font Awesome 5 Brands' !important;
+}
+
 .back-to-top {
   position: fixed;
   display: none;
@@ -28,6 +52,7 @@ h4,
 .h4,
 .fw-medium {
   font-weight: 600 !important;
+  font-size: 25px;
 }
 
 h5,
@@ -224,7 +249,7 @@ h6,
     position: absolute;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
 }
 

@@ -6664,8 +6664,8 @@ fieldset:disabled .btn {
 .pe-4 {
   padding-right: 1.5rem !important;
 }
-.pe-5 {
-  padding-right: 3rem !important;
+.pe-md-4 {
+  padding-right: 2rem !important;
 }
 .pb-0 {
   padding-bottom: 0 !important;
@@ -8100,12 +8100,7 @@ fieldset:disabled .btn {
   .pe-md-3 {
     padding-right: 1rem !important;
   }
-  .pe-md-4 {
-    padding-right: 1.5rem !important;
-  }
-  .pe-md-5 {
-    padding-right: 3rem !important;
-  }
+
   .pb-md-0 {
     padding-bottom: 0 !important;
   }
